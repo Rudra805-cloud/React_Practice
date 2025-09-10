@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 function GetRandomuser() {
 
    useEffect(()=>{
-        const randomId = Math.floor(Math.random() * 101);
+        const randomId = Math.floor(Math.random() * 101); //user of 0-100
 
     const getuser=async()=>{
      const url = `https://api.freeapi.app/api/v1/public/randomusers/${randomId}`;
