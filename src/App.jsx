@@ -1,4 +1,5 @@
 
+import GetRandomuser from "./GetRandomuser"
 import Getuser from "./Getuser"
 import UserbyId from "./UserbyId"
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <>
-    <UserbyId/>
+    <GetRandomuser/>
     </>
   )
 }
