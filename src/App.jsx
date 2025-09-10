@@ -1,11 +1,12 @@
 
 import Getuser from "./Getuser"
+import UserbyId from "./UserbyId"
 function App() {
  
 
   return (
     <>
-    <Getuser/>
+    <UserbyId/>
     </>
   )
 }
